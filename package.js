@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'lookback:body-class',
-  version: '0.4.1',
-  git: 'https://github.com/lookback/meteor-bodyclass',
+  name: 'krishaamer:body-class',
+  version: '0.4.2',
+  git: 'https://github.com/krishaamer/body-class.git',
   summary: 'Automatically add classes for router templates and layouts for scoping with CSS.'
 });
 
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
 
   api.use([
     'iron:router@1.0.0',
-    'kadira:flow-router@2.8.0'
+    'ostrio:flow-router-extra@3.4.3'
   ], where, {weak: true});
 
   api.addFiles('body-class.js', where);

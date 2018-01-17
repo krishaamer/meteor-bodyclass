@@ -1,5 +1,7 @@
 # Lookback Body Classes for Meteor
 
+Now with ostrio:flow-router-extra support.
+
 [![Circle CI](https://circleci.com/gh/lookback/meteor-bodyclass/tree/master.svg?style=svg)](https://circleci.com/gh/lookback/meteor-bodyclass/tree/master)
 
 This package automatically adds classes on the `body` element (default) for the names of the current template and layout used. It also reactively updates a class name returned from a function.

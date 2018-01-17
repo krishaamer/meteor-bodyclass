@@ -1,4 +1,4 @@
-const FlowRouter = Package['kadira:flow-router'] ? Package['kadira:flow-router'].FlowRouter : false;
+const FlowRouter = Package['ostrio:flow-router-extra'] ? Package['ostrio:flow-router-extra'].FlowRouter : false;
 
 const routeClasses = () => {
   let classes = [];
